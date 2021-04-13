@@ -1,0 +1,16 @@
+[
+{
+  "modid": "morebooze",
+  "name": "More Booze",
+  "description": "A simple mod that adds more booze to the LotR mod by Mevans.",
+  "version": "A0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Adunaphel"],
+  "credits": "Vinyarion, for helping with lots of problems",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
