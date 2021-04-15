@@ -2,7 +2,6 @@ package adunaphel.morebooze;
 
 import adunaphel.morebooze.recipes.BoozeBrewingRecipes;
 import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -17,8 +16,13 @@ public class MoreBooze
 	@Mod.Instance(MoreBooze.MODID)
 	public static MoreBooze instance;
 	
+	public MoreBooze()
+	{
+		instance = this;
+	}
+	
 	//Block & Item init
-	@EventHandler
+	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		BoozeBlocks.init();
@@ -26,13 +30,13 @@ public class MoreBooze
 	}
 	
 	//Proxy, tile entities, entities, GUI & packet registering
-	@EventHandler
+	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
 		BoozeBrewingRecipes.createBoozeRecipes();
 	}
 	
-	@EventHandler
+	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
 		

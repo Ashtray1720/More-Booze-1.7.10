@@ -12,8 +12,12 @@ import net.minecraftforge.oredict.ShapelessOreRecipe;
 public class BoozeBrewingRecipes extends LOTRBrewingRecipes 
 {
 	private static ArrayList<ShapelessOreRecipe> recipes = new ArrayList<ShapelessOreRecipe>();
+	
 	public static void createBoozeRecipes()
 	{
+		/*
+		 * addBrewingRecipe(new ItemStack(brew, BARREL_CAPACITY), new Object[] { BL, BM, BR, TL, TM, TR });
+		 */
 		addBrewingRecipe(new ItemStack(BoozeItems.mugWhiskey, BARREL_CAPACITY), new Object[] { BoozeItems.rye, BoozeItems.rye, BoozeItems.rye, Items.sugar, LOTRMod.cherry, Items.sugar });
 	}
 	
