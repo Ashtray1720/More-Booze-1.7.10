@@ -5,16 +5,20 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.stats.Achievement;
+
 
 @Mod(modid = MoreBooze.MODID, name = MoreBooze.NAME, version = MoreBooze.VERSION, dependencies = "required-after:lotr")
 public class MoreBooze
 {
 	public static final String MODID = "morebooze";
 	public static final String NAME = "More Booze";
-	public static final String VERSION = "A0.0.1";
+	public static final String VERSION = "BETA+1.0";
 	
 	@Mod.Instance(MoreBooze.MODID)
 	public static MoreBooze instance;
+	
+	public static Achievement mithril;
 	
 	public MoreBooze()
 	{

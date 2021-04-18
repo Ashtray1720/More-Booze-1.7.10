@@ -1,5 +1,26 @@
 item.ryeSeeds.name=Rye Seeds
 item.rye.name=Rye
-item.mugWhiskey.name=Whiskey
+item.agaveSeeds.name=Agave Seeds
+item.agaveLeaf.name=Agave Leaf
+item.lotr:mugWhiskey.name=Whiskey
+item.lotr:orcLiquor.name=Orc Liquor
+item.lotr:goldOrcDraught.name=Golden Orc Draught
+item.lotr:mugShet.name=Shet
+item.lotr:mugPhuck.name=Phuck
+item.lotr:mugElvenTonic.name=Elven Hair Tonic
+item.lotr:trollSnot.name=Troll Snot
+item.lotr:pureMithril.name=Pure Fucking Mithril (no please stop why you're an idiot)
+item.lotr:mugGoblinMead.name=Goblin Mead
+item.lotr:mugCheerwine.name=Cheerwine
+item.lotr:mugHarde.name=Harde
+item.lotr:mugYeale.name=Yeale
+item.lotr:mugTequila.name=Tequila
+item.lotr:wargPiss.name=Warg Piss
+item.lotr:ceaseEnDecist.name=Ceasendecist (OP)
+item.lotr:dietMtnDew.name=Diet Mountain Dew
+
+achievement.MithrilAchievement=Why the fuck?
+achievement.MithrilAchievment.desc=This person's a goddamned idiot.
 
 tile.rye_crop.name=Rye Crop
+tile.agave.name=Agave Plant

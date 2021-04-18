@@ -1,9 +1,9 @@
 [
 {
   "modid": "morebooze",
-  "name": "More Booze for the LOTR mod Version 36.10",
+  "name": "More Booze",
   "description": "A simple mod that adds more booze to the LotR mod by Mevans.",
-  "version": "A0.0.1",
+  "version": "Beta 1.0 for 1.7.10",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
