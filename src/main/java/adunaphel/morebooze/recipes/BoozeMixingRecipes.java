@@ -44,14 +44,14 @@ public class BoozeMixingRecipes
 		}
 	label47: for (ShapelessOreRecipe recipe : recipes)
 	{
-		ArrayList ingredients = new ArrayList(recipe.getInput());
+		ArrayList<Object> ingredients = new ArrayList<Object>(recipe.getInput());
 		for (int j = 0; j < 6; j++)
 		{
 			ItemStack itemstack = mixer.getStackInSlot(j);
 			if (itemstack != null)
 			{
 				boolean inRecipe = false;
-				Iterator it = ingredients.iterator();
+				Iterator<Object> it = ingredients.iterator();
 				while (it.hasNext())
 				{
 					boolean match = false;
